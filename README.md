@@ -8,7 +8,7 @@
 
 # Gerador de QR Code  
 
-<img src="images/1.png" alt="Teste com Postman" width="200" height="140"/>  
+<img src="images/1.PNG" alt="Teste com Postman" width="400" height="200"/>  
 
 Esta é uma aplicação Spring Boot que gera códigos QR personalizados utilizando a biblioteca ZXing, uma ferramenta open source do Google para criação e leitura de códigos de barras e QR Codes. Após a geração, os códigos são automaticamente armazenados no Amazon S3, um serviço de armazenamento na nuvem altamente escalável e seguro da AWS. Este projeto demonstra como integrar de forma eficiente o ZXing para criação de QR Codes e o AWS S3 para armazenamento e gerenciamento confiável dos arquivos gerados, possibilitando o acesso fácil e a distribuição dos códigos QR pela nuvem.
 
@@ -77,7 +77,7 @@ AWS_BUCKET_NAME=nome_do_seu_bucket
 
 ## 📊 Fluxo da Aplicação
 
-<img src="images/2.png" alt="Fluxo da Aplicação" width="300" height="200"/>
+<img src="images/2.PNG" alt="Fluxo da Aplicação" width="500" height="400"/>
 
 > Nota: Este diagrama foi criado no [Mermaid Online Editor](https://www.mermaidchart.com).
 
@@ -86,7 +86,7 @@ AWS_BUCKET_NAME=nome_do_seu_bucket
 
 ## 🔗 Endpoints da API
 
-<img src="images/3.png" alt="QR CODE" width="100" height="100"/>
+<img src="images/3.PNG" alt="QR CODE" width="100" height="100"/>
 
 ### POST `/qrcode`
 
